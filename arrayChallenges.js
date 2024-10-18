@@ -6,6 +6,8 @@ let teaFlavours = ["green tea", "black tea", "oolong tea"];
 let firstTea = teaFlavours[0];
 console.log(firstTea);
 
+//Question 2
+
 // Question 3
 
 let teaTypes = ["herbal tea", "white tea", "masala tea"];
@@ -48,3 +50,11 @@ let europeanCitis = ["Paris", "Rome"];
 let asianCities = ["Tokyo", "Bangkok"];
 let worldCities = europeanCitis.concat(asianCities);
 console.log(worldCities);
+
+//Question 9
+
+let teaMenu = ["masala tea", "oolong tea", "green tea", "earl tea"];
+let menuLength = teaMenu.length;
+console.log(menuLength);
+
+//Question 10
