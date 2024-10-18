@@ -43,3 +43,8 @@ console.log(topCities);
 console.log(hardCopyCities);
 
 //Question 8
+
+let europeanCitis = ["Paris", "Rome"];
+let asianCities = ["Tokyo", "Bangkok"];
+let worldCities = europeanCitis.concat(asianCities);
+console.log(worldCities);
