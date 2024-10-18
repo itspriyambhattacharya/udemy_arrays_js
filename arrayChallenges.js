@@ -20,7 +20,26 @@ console.log(citiesVisited);
 
 //Question 5
 
-let teaOrdes = ["chai", "icd tea", "matcha tea", "earl tea"];
+let teaOrdes = ["chai", "iced tea", "matcha tea", "earl tea"];
 
 let lastOrder = teaOrdes.pop();
 console.log(lastOrder);
+
+//Question 6
+
+let popularTeas = ["green tea", "oolong tea", "chai"];
+let softCopyTree = popularTeas;
+console.log(popularTeas);
+console.log(softCopyTree);
+
+// Question 7
+
+let topCities = ["Berlin", "Singapore", "New York"];
+
+let hardCopyCities = [...topCities]; ///creating hardcopy of an array
+
+topCities.pop();
+console.log(topCities);
+console.log(hardCopyCities);
+
+//Question 8
