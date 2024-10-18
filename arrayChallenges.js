@@ -71,3 +71,7 @@ console.log(menuLength);
 console.log("-------------------------------------------------");
 
 //Question 10
+
+let cityBucketList = ["Kyoto", "London", "Cape Town", "Vancouver"];
+let isLondonInLisst = cityBucketList.includes("London");
+console.log(isLondonInLisst);
