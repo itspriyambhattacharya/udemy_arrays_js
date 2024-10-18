@@ -17,3 +17,10 @@ console.log(teaTypes);
 let citiesVisited = ["Mumbai", "Sydney"];
 citiesVisited.push("Berlin");
 console.log(citiesVisited);
+
+//Question 5
+
+let teaOrdes = ["chai", "icd tea", "matcha tea", "earl tea"];
+
+let lastOrder = teaOrdes.pop();
+console.log(lastOrder);
